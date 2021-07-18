@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>VFE_Manufacturing</defName>
+		<label>Manufacturing</label>
+		<description>Build manufacturing benches and efficient work center.</description>
+		<baseCost>6000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+  <researchViewX>2.00</researchViewX>
+  <researchViewY>3.00</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>
