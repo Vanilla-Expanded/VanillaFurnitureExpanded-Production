@@ -337,6 +337,7 @@
     <building>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
       <unpoweredWorkTableWorkSpeedFactor>0.5</unpoweredWorkTableWorkSpeedFactor>
+      <paintable>true</paintable>
     </building>
     <placeWorkers>
       <li>PlaceWorker_ShowFacilitiesConnections</li>
