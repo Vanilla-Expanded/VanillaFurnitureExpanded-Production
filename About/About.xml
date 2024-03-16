@@ -7,6 +7,7 @@
 		<li>1.4</li>
 		<li>1.5</li>
 	</supportedVersions>
+	<modIconPath>UI/VELogo</modIconPath>
 	<packageId>VanillaExpanded.VFEProduction</packageId>
 	<description>
 Vanilla Furniture Expanded - Production module, is an ideal mod to fill that late game hole in production. Once you set up your vanilla workstations with tool cabinets scattered everywhere, you essentially got as far as you possibly can. This carefully designed, vanilla-fitting mod adds a new layer to workstation layout, hopefully allowing players to create manufacturing-designated rooms instead of one massive room with all the workbenches.
