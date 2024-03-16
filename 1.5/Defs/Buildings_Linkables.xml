@@ -7,15 +7,15 @@
     <label>drug cabinet</label>
     <description>Increases work speed when placed near a drug lab. One workbench links up to two drug cabinets.</description>
     <graphicData>
-        <texPath>Things/Building/Linkables/DrugCabinet</texPath>
-        <graphicClass>Graphic_Multi</graphicClass>
-        <drawSize>(2,1)</drawSize>
-        <damageData>
-            <cornerTL>Damage/Corner</cornerTL>
-            <cornerTR>Damage/Corner</cornerTR>
-            <cornerBL>Damage/Corner</cornerBL>
-            <cornerBR>Damage/Corner</cornerBR>
-        </damageData>
+      <texPath>Things/Building/Linkables/DrugCabinet</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,1)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
@@ -25,36 +25,36 @@
     <canOverlapZones>false</canOverlapZones>
     <pathCost>60</pathCost>
     <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToBuild>1800</WorkToBuild>
-        <Mass>30</Mass>
-        <Flammability>0.5</Flammability>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>1800</WorkToBuild>
+      <Mass>30</Mass>
+      <Flammability>0.5</Flammability>
     </statBases>
     <size>(2,1)</size>
     <costList>
-        <Steel>100</Steel>
-        <Plasteel>25</Plasteel>
+      <Steel>100</Steel>
+      <Plasteel>25</Plasteel>
     </costList>
     <researchPrerequisites>
-        <li>ComplexFurniture</li>
+      <li>ComplexFurniture</li>
     </researchPrerequisites>
     <designationCategory>Misc</designationCategory>
     <minifiedDef>MinifiedThing</minifiedDef>
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
     <thingCategories>
-        <li>BuildingsMisc</li>
+      <li>BuildingsMisc</li>
     </thingCategories>
     <comps>
-        <li Class="CompProperties_Facility">
-            <statOffsets>
-                <WorkTableWorkSpeedFactor>0.10</WorkTableWorkSpeedFactor>
-            </statOffsets>
-            <maxSimultaneous>2</maxSimultaneous>
-        </li>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <WorkTableWorkSpeedFactor>0.10</WorkTableWorkSpeedFactor>
+        </statOffsets>
+        <maxSimultaneous>2</maxSimultaneous>
+      </li>
     </comps>
     <designationHotKey>Misc6</designationHotKey>
     <placeWorkers>
-        <li>PlaceWorker_ShowFacilitiesConnections</li>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
     </placeWorkers>
   </ThingDef>
 
@@ -64,15 +64,15 @@
     <label>machining cabinet</label>
     <description>Increases work speed when placed near a machining table. One workbench links up to two machining cabinets.</description>
     <graphicData>
-        <texPath>Things/Building/Linkables/MachiningCabinet</texPath>
-        <graphicClass>Graphic_Multi</graphicClass>
-        <drawSize>(2,1)</drawSize>
-        <damageData>
-            <cornerTL>Damage/Corner</cornerTL>
-            <cornerTR>Damage/Corner</cornerTR>
-            <cornerBL>Damage/Corner</cornerBL>
-            <cornerBR>Damage/Corner</cornerBR>
-        </damageData>
+      <texPath>Things/Building/Linkables/MachiningCabinet</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,1)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
@@ -82,35 +82,35 @@
     <canOverlapZones>false</canOverlapZones>
     <pathCost>60</pathCost>
     <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToBuild>1800</WorkToBuild>
-        <Mass>50</Mass>
-        <Flammability>0.5</Flammability>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>1800</WorkToBuild>
+      <Mass>50</Mass>
+      <Flammability>0.5</Flammability>
     </statBases>
     <size>(2,1)</size>
     <costList>
-        <Steel>150</Steel>
+      <Steel>150</Steel>
     </costList>
     <researchPrerequisites>
-        <li>Machining</li>
+      <li>Machining</li>
     </researchPrerequisites>
     <designationCategory>Misc</designationCategory>
     <minifiedDef>MinifiedThing</minifiedDef>
     <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
     <thingCategories>
-        <li>BuildingsMisc</li>
+      <li>BuildingsMisc</li>
     </thingCategories>
     <comps>
-        <li Class="CompProperties_Facility">
-            <statOffsets>
-                <WorkTableWorkSpeedFactor>0.10</WorkTableWorkSpeedFactor>
-            </statOffsets>
-            <maxSimultaneous>2</maxSimultaneous>
-        </li>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <WorkTableWorkSpeedFactor>0.10</WorkTableWorkSpeedFactor>
+        </statOffsets>
+        <maxSimultaneous>2</maxSimultaneous>
+      </li>
     </comps>
     <designationHotKey>Misc6</designationHotKey>
     <placeWorkers>
-        <li>PlaceWorker_ShowFacilitiesConnections</li>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
     </placeWorkers>
   </ThingDef>
 
@@ -120,15 +120,15 @@
     <label>smithing cabinet</label>
     <description>Increases work speed when placed near a smithy. One workbench links up to two smithy cabinets.</description>
     <graphicData>
-        <texPath>Things/Building/Linkables/SmithyCabinet</texPath>
-        <graphicClass>Graphic_Multi</graphicClass>
-        <drawSize>(2,1)</drawSize>
-        <damageData>
-            <cornerTL>Damage/Corner</cornerTL>
-            <cornerTR>Damage/Corner</cornerTR>
-            <cornerBL>Damage/Corner</cornerBL>
-            <cornerBR>Damage/Corner</cornerBR>
-        </damageData>
+      <texPath>Things/Building/Linkables/SmithyCabinet</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,1)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
@@ -138,35 +138,35 @@
     <canOverlapZones>false</canOverlapZones>
     <pathCost>60</pathCost>
     <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToBuild>1800</WorkToBuild>
-        <Mass>50</Mass>
-        <Flammability>0.5</Flammability>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>1800</WorkToBuild>
+      <Mass>50</Mass>
+      <Flammability>0.5</Flammability>
     </statBases>
     <size>(2,1)</size>
     <costList>
-        <Steel>150</Steel>
+      <Steel>150</Steel>
     </costList>
     <researchPrerequisites>
-        <li>Smithing</li>
+      <li>Smithing</li>
     </researchPrerequisites>
     <designationCategory>Misc</designationCategory>
     <minifiedDef>MinifiedThing</minifiedDef>
     <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
     <thingCategories>
-        <li>BuildingsMisc</li>
+      <li>BuildingsMisc</li>
     </thingCategories>
     <comps>
-        <li Class="CompProperties_Facility">
-            <statOffsets>
-                <WorkTableWorkSpeedFactor>0.10</WorkTableWorkSpeedFactor>
-            </statOffsets>
-            <maxSimultaneous>2</maxSimultaneous>
-        </li>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <WorkTableWorkSpeedFactor>0.10</WorkTableWorkSpeedFactor>
+        </statOffsets>
+        <maxSimultaneous>2</maxSimultaneous>
+      </li>
     </comps>
     <designationHotKey>Misc6</designationHotKey>
     <placeWorkers>
-        <li>PlaceWorker_ShowFacilitiesConnections</li>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
     </placeWorkers>
   </ThingDef>
 
@@ -176,15 +176,15 @@
     <label>kitchen sink cabinet</label>
     <description>Increases work speed when placed nearby a cooking stove.</description>
     <graphicData>
-        <texPath>Things/Building/Linkables/KitchenSinkCabinet</texPath>
-        <graphicClass>Graphic_Multi</graphicClass>
-        <drawSize>(2,1)</drawSize>
-        <damageData>
-            <cornerTL>Damage/Corner</cornerTL>
-            <cornerTR>Damage/Corner</cornerTR>
-            <cornerBL>Damage/Corner</cornerBL>
-            <cornerBR>Damage/Corner</cornerBR>
-        </damageData>
+      <texPath>Things/Building/Linkables/KitchenSinkCabinet</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,1)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
@@ -194,36 +194,36 @@
     <canOverlapZones>false</canOverlapZones>
     <pathCost>60</pathCost>
     <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToBuild>1800</WorkToBuild>
-        <Mass>40</Mass>
-        <Flammability>0.5</Flammability>
-        <Cleanliness>5</Cleanliness>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>1800</WorkToBuild>
+      <Mass>40</Mass>
+      <Flammability>0.5</Flammability>
+      <Cleanliness>5</Cleanliness>
     </statBases>
     <size>(2,1)</size>
     <costList>
-        <Steel>100</Steel>
+      <Steel>100</Steel>
     </costList>
     <researchPrerequisites>
-        <li>ComplexFurniture</li>
+      <li>ComplexFurniture</li>
     </researchPrerequisites>
     <designationCategory>Misc</designationCategory>
     <minifiedDef>MinifiedThing</minifiedDef>
     <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
     <thingCategories>
-        <li>BuildingsMisc</li>
+      <li>BuildingsMisc</li>
     </thingCategories>
     <comps>
-        <li Class="CompProperties_Facility">
-            <statOffsets>
-                <WorkTableWorkSpeedFactor>0.10</WorkTableWorkSpeedFactor>
-            </statOffsets>
-            <maxSimultaneous>1</maxSimultaneous>
-        </li>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <WorkTableWorkSpeedFactor>0.10</WorkTableWorkSpeedFactor>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+      </li>
     </comps>
     <designationHotKey>Misc6</designationHotKey>
     <placeWorkers>
-        <li>PlaceWorker_ShowFacilitiesConnections</li>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
     </placeWorkers>
   </ThingDef>
 
@@ -233,15 +233,15 @@
     <label>tailor cabinet</label>
     <description>Increases work speed when placed near a tailoring table. One workbench links up to two tailor cabinets.</description>
     <graphicData>
-        <texPath>Things/Building/Linkables/TailorCabinet</texPath>
-        <graphicClass>Graphic_Multi</graphicClass>
-        <drawSize>(2,1)</drawSize>
-        <damageData>
-            <cornerTL>Damage/Corner</cornerTL>
-            <cornerTR>Damage/Corner</cornerTR>
-            <cornerBL>Damage/Corner</cornerBL>
-            <cornerBR>Damage/Corner</cornerBR>
-        </damageData>
+      <texPath>Things/Building/Linkables/TailorCabinet</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,1)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
@@ -251,35 +251,35 @@
     <canOverlapZones>false</canOverlapZones>
     <pathCost>60</pathCost>
     <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToBuild>1800</WorkToBuild>
-        <Mass>40</Mass>
-        <Flammability>0.5</Flammability>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>1800</WorkToBuild>
+      <Mass>40</Mass>
+      <Flammability>0.5</Flammability>
     </statBases>
     <size>(2,1)</size>
     <costList>
-        <Steel>100</Steel>
+      <Steel>100</Steel>
     </costList>
     <researchPrerequisites>
-        <li>ComplexFurniture</li>
+      <li>ComplexFurniture</li>
     </researchPrerequisites>
     <designationCategory>Misc</designationCategory>
     <minifiedDef>MinifiedThing</minifiedDef>
     <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
     <thingCategories>
-        <li>BuildingsMisc</li>
+      <li>BuildingsMisc</li>
     </thingCategories>
     <comps>
-        <li Class="CompProperties_Facility">
-            <statOffsets>
-                <WorkTableWorkSpeedFactor>0.10</WorkTableWorkSpeedFactor>
-            </statOffsets>
-            <maxSimultaneous>2</maxSimultaneous>
-        </li>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <WorkTableWorkSpeedFactor>0.10</WorkTableWorkSpeedFactor>
+        </statOffsets>
+        <maxSimultaneous>2</maxSimultaneous>
+      </li>
     </comps>
     <designationHotKey>Misc6</designationHotKey>
     <placeWorkers>
-        <li>PlaceWorker_ShowFacilitiesConnections</li>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
     </placeWorkers>
   </ThingDef>
 
@@ -289,15 +289,15 @@
     <label>fabrication cabinet</label>
     <description>Increases work speed when placed near a fabrication bench. One workbench can link up to two fabrication cabinets.</description>
     <graphicData>
-        <texPath>Things/Building/Linkables/FabricationCabinet</texPath>
-        <graphicClass>Graphic_Multi</graphicClass>
-        <drawSize>(2,1)</drawSize>
-        <damageData>
-            <cornerTL>Damage/Corner</cornerTL>
-            <cornerTR>Damage/Corner</cornerTR>
-            <cornerBL>Damage/Corner</cornerBL>
-            <cornerBR>Damage/Corner</cornerBR>
-        </damageData>
+      <texPath>Things/Building/Linkables/FabricationCabinet</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,1)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
@@ -307,36 +307,36 @@
     <canOverlapZones>false</canOverlapZones>
     <pathCost>60</pathCost>
     <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToBuild>1800</WorkToBuild>
-        <Mass>40</Mass>
-        <Flammability>0.5</Flammability>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>1800</WorkToBuild>
+      <Mass>40</Mass>
+      <Flammability>0.5</Flammability>
     </statBases>
     <size>(2,1)</size>
     <costList>
-        <Steel>100</Steel>
-		<ComponentIndustrial>2</ComponentIndustrial>
+      <Steel>100</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <researchPrerequisites>
-        <li>Fabrication</li>
+      <li>Fabrication</li>
     </researchPrerequisites>
     <designationCategory>Misc</designationCategory>
     <minifiedDef>MinifiedThing</minifiedDef>
     <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
     <thingCategories>
-        <li>BuildingsMisc</li>
+      <li>BuildingsMisc</li>
     </thingCategories>
     <comps>
-        <li Class="CompProperties_Facility">
-            <statOffsets>
-                <WorkTableWorkSpeedFactor>0.10</WorkTableWorkSpeedFactor>
-            </statOffsets>
-            <maxSimultaneous>2</maxSimultaneous>
-        </li>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <WorkTableWorkSpeedFactor>0.10</WorkTableWorkSpeedFactor>
+        </statOffsets>
+        <maxSimultaneous>2</maxSimultaneous>
+      </li>
     </comps>
     <designationHotKey>Misc6</designationHotKey>
     <placeWorkers>
-        <li>PlaceWorker_ShowFacilitiesConnections</li>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
     </placeWorkers>
   </ThingDef>
 
