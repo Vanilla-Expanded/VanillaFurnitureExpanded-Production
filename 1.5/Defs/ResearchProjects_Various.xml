@@ -13,6 +13,17 @@
     </prerequisites>
     <researchViewX>2.00</researchViewX>
     <researchViewY>3.00</researchViewY>
+	<generalRules>
+  <rulesStrings>
+    <li>subject->the dawn of industry</li>
+    <li>subject_story->pioneered the integration of complex machinery for mass production, heralding a new era of efficiency</li>
+    <li>subject_story->transformed raw materials into marvels of utility, fueling the expansion of civilization</li>
+    <li>subject_story->devised systems of assembly that became the heartbeat of the community's economic engine</li>
+    <li>subject_story->cultivated a culture of innovation, where every tool and machine is a step towards the future</li>
+    <li>subject_story->founded the principles of modern manufacturing, blending craftsmanship with the precision of technology</li>
+    <li>subject_gerund->carving the path towards a self-sustaining society with the power of industrial manufacturing</li>
+  </rulesStrings>
+</generalRules>
   </ResearchProjectDef>
 
 </Defs>
