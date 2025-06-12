@@ -46,8 +46,8 @@
         <basePowerConsumption>250</basePowerConsumption>
         <shortCircuitInRain>true</shortCircuitInRain>
       </li>
-      <li Class="CompProperties_Flickable"/>
-      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
     </comps>
     <recipes>
       <li>Make_ComponentIndustrial</li>
@@ -76,7 +76,7 @@
       <li>Fabrication</li>
     </researchPrerequisites>
     <modExtensions>
-      <li Class="RecipeInheritance.ThingDefExtension">
+      <li Class="VEF.Buildings.RecipeInheritanceExtension">
         <inheritRecipesFrom>
           <li>FabricationBench</li>
         </inheritRecipesFrom>
@@ -85,9 +85,6 @@
             <li>Manufactured</li>
           </categories>
         </allowedProductFilter>
-        <!-- <disallowedProductFilter></disallowedProductFilter>
-            <allowedRecipes></allowedRecipes>
-            <disallowedRecipes></disallowedRecipes> -->
       </li>
     </modExtensions>
   </ThingDef>
@@ -147,6 +144,7 @@
     </inspectorTabs>
     <building>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+      <paintable>true</paintable>
     </building>
     <comps>
       <li Class="CompProperties_Power">
@@ -154,13 +152,13 @@
         <basePowerConsumption>350</basePowerConsumption>
         <shortCircuitInRain>true</shortCircuitInRain>
       </li>
-      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Flickable" />
       <li Class="CompProperties_AffectedByFacilities">
         <linkableFacilities>
           <li>ToolCabinet</li>
         </linkableFacilities>
       </li>
-      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Breakdownable" />
     </comps>
     <designationHotKey>Misc3</designationHotKey>
     <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
@@ -171,14 +169,10 @@
       <li>Electricity</li>
     </researchPrerequisites>
     <modExtensions>
-      <li Class="RecipeInheritance.ThingDefExtension">
+      <li Class="VEF.Buildings.RecipeInheritanceExtension">
         <inheritRecipesFrom>
           <li>TableButcher</li>
         </inheritRecipesFrom>
-        <!-- <allowedProductFilter></allowedProductFilter>
-            <disallowedProductFilter></disallowedProductFilter>
-            <allowedRecipes></allowedRecipes>
-            <disallowedRecipes></disallowedRecipes> -->
       </li>
     </modExtensions>
   </ThingDef>
@@ -234,6 +228,7 @@
     </inspectorTabs>
     <building>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+      <paintable>true</paintable>
     </building>
     <comps>
       <li Class="CompProperties_Power">
@@ -241,14 +236,14 @@
         <basePowerConsumption>400</basePowerConsumption>
         <shortCircuitInRain>true</shortCircuitInRain>
       </li>
-      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Flickable" />
       <li Class="CompProperties_AffectedByFacilities">
         <linkableFacilities>
           <li>ToolCabinet</li>
           <li>VFE_DrugCabinet</li>
         </linkableFacilities>
       </li>
-      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Breakdownable" />
     </comps>
     <placeWorkers>
       <li>PlaceWorker_ShowFacilitiesConnections</li>
@@ -258,14 +253,10 @@
       <li>DrugProduction</li>
     </researchPrerequisites>
     <modExtensions>
-      <li Class="RecipeInheritance.ThingDefExtension">
+      <li Class="VEF.Buildings.RecipeInheritanceExtension">
         <inheritRecipesFrom>
           <li>DrugLab</li>
         </inheritRecipesFrom>
-        <!-- <allowedProductFilter></allowedProductFilter>
-            <disallowedProductFilter></disallowedProductFilter>
-            <allowedRecipes></allowedRecipes>
-            <disallowedRecipes></disallowedRecipes> -->
       </li>
     </modExtensions>
   </ThingDef>
@@ -343,14 +334,10 @@
       <li>Smithing</li>
     </researchPrerequisites>
     <modExtensions>
-      <li Class="RecipeInheritance.ThingDefExtension">
+      <li Class="VEF.Buildings.RecipeInheritanceExtension">
         <inheritRecipesFrom>
           <li>ElectricSmelter</li>
         </inheritRecipesFrom>
-        <!-- <allowedProductFilter></allowedProductFilter>
-            <disallowedProductFilter></disallowedProductFilter>
-            <allowedRecipes></allowedRecipes>
-            <disallowedRecipes></disallowedRecipes> -->
       </li>
     </modExtensions>
   </ThingDef>
@@ -409,6 +396,7 @@
     </inspectorTabs>
     <building>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+      <paintable>true</paintable>
     </building>
     <comps>
       <li Class="CompProperties_Power">
@@ -416,13 +404,13 @@
         <basePowerConsumption>250</basePowerConsumption>
         <shortCircuitInRain>true</shortCircuitInRain>
       </li>
-      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Flickable" />
       <li Class="CompProperties_AffectedByFacilities">
         <linkableFacilities>
           <li>ToolCabinet</li>
         </linkableFacilities>
       </li>
-      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Breakdownable" />
     </comps>
     <designationHotKey>Misc9</designationHotKey>
     <placeWorkers>
@@ -433,14 +421,10 @@
       <li>Electricity</li>
     </researchPrerequisites>
     <modExtensions>
-      <li Class="RecipeInheritance.ThingDefExtension">
+      <li Class="VEF.Buildings.RecipeInheritanceExtension">
         <inheritRecipesFrom>
           <li>TableStonecutter</li>
         </inheritRecipesFrom>
-        <!-- <allowedProductFilter></allowedProductFilter>
-            <disallowedProductFilter></disallowedProductFilter>
-            <allowedRecipes></allowedRecipes>
-            <disallowedRecipes></disallowedRecipes> -->
       </li>
     </modExtensions>
   </ThingDef>
