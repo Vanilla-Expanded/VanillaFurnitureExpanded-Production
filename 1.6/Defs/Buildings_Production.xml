@@ -145,6 +145,7 @@
     <building>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
       <paintable>true</paintable>
+	   <workTableRoomRole>Kitchen</workTableRoomRole>
     </building>
     <comps>
       <li Class="CompProperties_Power">
