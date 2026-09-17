@@ -187,7 +187,7 @@
 			<texPath>Things/Building/Workbenches/TableDrugLabElectric</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(3.5,1.5)</drawSize>
+			<drawSize>(4.2,1.8)</drawSize>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
